@@ -1,0 +1,49 @@
+/* src/BrowseItems.css */
+.browse-items-page {
+    background: linear-gradient(135deg, #6a11cb, #2575fc);
+    min-height: 100vh;
+    padding: 20px;
+    color: white;
+    text-align: center;
+  }
+  
+  .category-section {
+    margin-bottom: 30px;
+  }
+  
+  .item-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  .item {
+    background: rgba(255, 255, 255, 0.9);
+    padding: 15px;
+    border-radius: 10px;
+    color: #333;
+    width: 200px;
+    text-align: left;
+  }
+  
+  .item h3 {
+    margin: 0 0 10px;
+  }
+  
+  .item p {
+    margin: 0 0 10px;
+  }
+  
+  .image-container {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+  }
+  
+  .item-image {
+    max-width: 100%;
+    max-height: 100px;
+    border-radius: 5px;
+    object-fit: cover;
+  }

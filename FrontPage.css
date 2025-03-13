@@ -1,0 +1,35 @@
+/* src/FrontPage.css */
+.main-header h1 {
+  font-size: 3rem;
+  margin-bottom: 10px;
+}
+
+.main-header p {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+}
+
+.button-container {
+  display: flex;
+  gap: 20px;
+}
+
+.action-button {
+  padding: 15px 30px;
+  font-size: 1rem;
+  color: #6a11cb;
+  background: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+
+.action-button:hover {
+  background: #f0f0f0;
+  transform: translateY(-5px);
+}
+
+.action-button:active {
+  transform: translateY(0);
+}
